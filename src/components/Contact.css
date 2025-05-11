@@ -1,0 +1,31 @@
+.section {
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .section__title {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #005afad4;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    border: 2px solid #0d7289;
+    border-radius: 5px;
+    color: #0b5685;
+    background: transparent;
+  }
+  
+  .btn--outline:hover {
+    background: #ffffff;
+    color: #0b5685;
+    border-radius: 5px;
+  }
+  

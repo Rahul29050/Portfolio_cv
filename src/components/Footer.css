@@ -1,0 +1,18 @@
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: var(--clr-bg-dark);
+    color: #007bff;
+    font-size: 0.9rem;
+}
+
+.footer__link {
+    color: var(--clr-primary);
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.footer__link:hover {
+    color: var(--clr-accent);
+}

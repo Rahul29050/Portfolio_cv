@@ -1,0 +1,47 @@
+.about {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .about__name {
+    color: #007bff;
+    font-weight: bold;
+  }
+  
+  .about__role {
+    font-size: 24px;
+    color: #555;
+  }
+  
+  .about__desc-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .about__desc {
+    font-size: 18px;
+    color: #777;
+    max-width: 600px;
+    text-align: center; /* Ensures text alignment */
+    line-height: 1.6;
+  }
+  
+  .about__contact {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .about__contact a {
+    color: #333;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .about__contact a:hover {
+    transform: scale(1.2);
+    color: #007bff;
+  }
+  
