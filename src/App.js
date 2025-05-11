@@ -1,12 +1,12 @@
 import { useState } from "react";
 import { ThemeProvider, createTheme, CssBaseline, Container } from "@mui/material";
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import Projects from "./components/Projects";
-import Skills from "./components/Skills";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import ScrollToTop from "./components/ScrollToTop";
+import Header from "./components/Header/Header";
+import Hero from "./components/Hero/Hero";
+import Projects from "./components/Project/Projects";
+import Skills from "./components/skills/Skills";
+import Contact from "./components/Contact/Contact";
+import Footer from "./components/Footer/Footer";
+import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 
 export default function App() {
   const [darkMode, setDarkMode] = useState(false);
