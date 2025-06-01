@@ -5,11 +5,18 @@ import "./Projects.css";
 
 const projects = [
   {
-    title: "Polling System",
+    title: "Polling System - ReactJS",
     description:
       "A real-time polling system where users can create accounts, create polls, participate in public polls, receive live notifications, and view responses to their created polls.",
-    stack: ["ReactJS", "Node.js", "Express.js", "Socket.io", "MongoDB"],
+    stack: ["ReactJS"],
     github: "https://github.com/Rahul29050/Polling-App---React-JS",
+    live: "https://your-live-link.com",
+  },  {
+    title: "Polling System - NodeJS",
+    description:
+      "A real-time polling system where users can create accounts, create polls, participate in public polls, receive live notifications, and view responses to their created polls.",
+    stack: [ "Node.js", "Express.js", "Socket.io","2FA", "MongoDB"],
+    github: "https://github.com/Rahul29050/Polling-App---Node-JS",
     live: "https://your-live-link.com",
   },
   {
@@ -20,22 +27,22 @@ const projects = [
     github: "https://github.com/your-github",
     live: "https://your-live-link.com",
   },
-  {
-    title: "Multi-FEIN",
-    description:
-      "An employee management application that sends automated notifications to managers when employees cross threshold working hours. Managers can view an overtime summary table, and employees can switch between two clients seamlessly. Integrated with various enterprise tools for performance and CI/CD pipeline.",
-    stack: [
-      "ReactJS",
-      "ASP.NET",
-      "MySQL",
-      "AzureDB",
-      "TeamCity",
-      "Octopus",
-      "New Relic"
-    ],
-    github: "https://github.com/your-github",
-    live: "https://your-live-link.com",
-  },
+  // {
+  //   title: "Multi-FEIN",
+  //   description:
+  //     "An employee management application that sends automated notifications to managers when employees cross threshold working hours. Managers can view an overtime summary table, and employees can switch between two clients seamlessly. Integrated with various enterprise tools for performance and CI/CD pipeline.",
+  //   stack: [
+  //     "ReactJS",
+  //     "ASP.NET",
+  //     "MySQL",
+  //     "AzureDB",
+  //     "TeamCity",
+  //     "Octopus",
+  //     "New Relic"
+  //   ],
+  //   github: "https://github.com/your-github",
+  //   live: "https://your-live-link.com",
+  // },
 ];
 
 
