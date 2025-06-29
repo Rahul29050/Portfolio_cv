@@ -20,6 +20,8 @@ const skills = [
   "Git",
   "GitHub",
   "Azure DevOps",
+  "Power Apps",
+  "PCF Components"
 ];
 
 const Skills = () => {

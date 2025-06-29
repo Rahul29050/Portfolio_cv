@@ -24,7 +24,7 @@ export default function Hero() {
         {/* Contact Section */}
         <Box className="about__contact center" mt={3}>
           <IconButton
-            href=""
+            href="https://drive.google.com/file/d/13pehmVX_oJuK9wQ4Iv0Ew99kSaKYwlvE/view"
             target="_blank"
             aria-label="Resume"
           >
@@ -32,7 +32,7 @@ export default function Hero() {
           </IconButton>
 
           <IconButton
-            href="https://leetcode.com/u/pariharrahul298/"
+            href="https://leetcode.com/u/RahulSinghParihar01/"
             target="_blank"
             aria-label="LeetCode"
           >
